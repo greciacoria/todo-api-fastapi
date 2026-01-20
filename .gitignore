@@ -1,4 +1,18 @@
-.env
-venv/
+# Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables (NO subir)
+.env
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
